@@ -1,0 +1,51 @@
+{
+  "name": "storybook-atlas",
+  "version": 1,
+  "default_quality": "production",
+  "maps": {
+    "urban": "atlas/urban-atlas.png",
+    "coastal": "atlas/coastal-atlas.png",
+    "mountain": "atlas/hills-atlas.png",
+    "forest": "atlas/hills-atlas.png"
+  },
+  "title_background": "atlas/journey-paper.png",
+  "avatar": "atlas/traveler-portrait.png",
+  "font": "fonts/LXGWWenKai-Regular.ttf",
+  "palette": {
+    "ink": "#16384c",
+    "coral": "#f07b61",
+    "cream": "#fff8e8",
+    "green": "#7e9f86"
+  },
+  "layout": {
+    "photo_width": 0.54,
+    "photo_height": 0.76,
+    "caption_px_at_1280": 40,
+    "label_px_at_1280": 28,
+    "date_px_at_1280": 28,
+    "avatar_diameter_px_at_1280": 78
+  },
+  "timing": {
+    "overview_seconds": 2,
+    "travel_seconds": [
+      1.5,
+      4
+    ],
+    "photo_seconds": [
+      3,
+      5
+    ],
+    "short_note_seconds": 5,
+    "reflection_seconds": [
+      12,
+      16
+    ],
+    "final_reflection_seconds": [
+      20,
+      25
+    ],
+    "outro_seconds": 3.5,
+    "default_target_seconds": 270
+  },
+  "minimum_standard": "Illustrated atlas artwork, paper journal framing, readable typography, large real media, separate travel/arrival states; technical success alone is not production acceptance."
+}

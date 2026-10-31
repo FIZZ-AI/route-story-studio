@@ -1,0 +1,4 @@
+interface:
+  display_name: "Route Story · 地图叙事影片"
+  short_description: "用地图路线与章节故事，组织零散图文视频并制作可修改的旅行影片"
+  default_prompt: "Use $route-story to turn my scattered photos, videos and notes into a map-led story film."

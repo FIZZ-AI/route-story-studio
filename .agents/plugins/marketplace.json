@@ -1,0 +1,20 @@
+{
+  "name": "route-story-local",
+  "interface": {
+    "displayName": "Route Story \u00b7 local authoring"
+  },
+  "plugins": [
+    {
+      "name": "route-story-studio",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
