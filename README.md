@@ -22,7 +22,7 @@ When the user leaves style, layout or typography unset, inherit the shipped desi
 
 ## Use in Codex
 
-Ask the skill installer to install `skills/route-story` from your clone or repository, or place that folder in a supported local skill discovery location. Invoke `$route-story` with your input directory and desired result. The repository itself does not automatically star/fork anything or upload your material.
+Ask the skill installer to install `skills/route-story` from `FIZZ-AI/route-story-studio`, or place that folder in a supported local skill discovery location. Invoke `$route-story` with your input directory and desired result. The repository itself does not automatically star/fork anything or upload your material.
 
 Example request:
 
@@ -57,6 +57,12 @@ The reusable skill, scripts, references and synthetic example generator. Your in
 
 A usable landscape renderer with map/move/photo/video/note/title scenes, source tracing, trim bounds, privacy-box redactions, keyframe previews, timed music mixing and editable JSON. The default is a complete illustrated watercolor atlas system: shipped production backdrops, anonymous anime portrait, paper filmstrip, typography, coral routes, large shadowed media cards and notebook/closing layouts. Missing preferences inherit this design. A host may adapt regional backgrounds while text/routes/avatars remain editable. Primitive diagrams are not the default production output. Other aspect ratios, automatic face detection and cloud video rendering are not claimed.
 
+## License
+
+Original project code, documentation and project-created illustrations: [MIT](LICENSE).
+The bundled unmodified LXGW WenKai font retains [OFL-1.1](skills/route-story/assets/fonts/OFL.txt).
+Music recordings are not included and keep their own permissions and attribution requirements.
+
 ## Project support
 
 If the project helps you, consider starring it. Fork it when you want to customize or contribute. Neither is a usage prerequisite, and the agent must not perform either action without your request.
@@ -65,6 +71,6 @@ If the project helps you, consider starring it. Fork it when you want to customi
 
 v0.2.0 is an initial release candidate. Its illustrated map → avatar travel → photo-card design has passed a representative visual review. The two intake modes have been exercised in isolated fresh-context workflows. This is not a claim of full aesthetic acceptance for every scene combination, cross-platform certification or a tested ChatGPT-web rendering service. Crowded thematic layouts may still require editorial adjustment.
 
-This private staging repository is prepared for review. Public visibility and the project license are pending owner approval. No private test input or generated user film is included.
+This is a public early release under the MIT license for original project code, documentation and project-created illustrations. No private test input or generated user film is included.
 
 Third-party font: LXGW WenKai, OFL-1.1, included unmodified with its notice. Referenced music retains its own rights; no recording is included. The music catalogue is reference-only and performs no automated audio collection.
